@@ -1,0 +1,229 @@
+#viewpoint{
+    border:solid 0px;
+    height: 100%;
+    overflow: hidden;
+}
+
+#firstarae{
+    background-color:yellow;
+    height:100hv;
+    overflow: hidden;
+    border:solid 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    background-color: #f0f0f0;
+    height:54px;
+    overflow: hidden;
+    display:flex;
+}
+
+.heading-avatar-icon{
+   flex-grow: 1;
+   padding: 8px;
+}
+
+.heading-icon{
+    flex-grow: 1;
+    
+   padding:14
+    
+}
+
+#avatar{
+    width:40px;
+    height: auto;
+}
+
+.searcharea{
+    background-color: #fbfbfb;
+    height:56px;
+    width: 100%;
+    padding-top:10px;
+    padding-left:25px;
+    padding-right:10px ;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 3.375rem;
+    border-radius: 22px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 5.375rem;
+    padding: 2;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    
+}
+
+.list-item{
+    background-color: white;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+    
+}
+
+.time{
+  font-size: 12px;
+  color: rgba(0, 0, 0, .4);
+  vertical-align: baseline;
+}
+
+
+
+#line{
+    border-bottom: 2px solid #f7f7f7;
+    margin: 0;
+    padding-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+ /*second section     */
+#chattingarae{
+    background-color:rgb(250, 246, 246);
+    height: 100vh;
+    padding: 0px;
+    margin: 0px
+}
+
+.header-two{
+    background-color: #f0f0f0;
+    height:54px;
+    padding: 6px;
+    overflow: hidden;
+}
+
+
+.chat-box{
+    background-color: rgb(241, 245, 236);
+    background-image: url(https://web.whatsapp.com/img/bg-chat-tile_9e8a2898faedb7db9bf5638405cf81ae.png);
+    height: 580px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.transparent{
+    z-index: 2;
+    height: 990px;
+    background-color: rgba(245, 234, 243, 0.897);
+    padding:50px;
+}
+
+.today{
+    background-color: rgba(225, 245, 254, 0.979);
+    font-size: 16px;
+    position: fixed-cen;
+    color: rgba(0, 0, 0, 0.644);
+    max-width:300px ;
+    min-width: 75px ;
+    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    display: inline-block;
+    margin-left: 420px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.message-receiver{
+    background-color: rgb(255, 255, 255);
+    max-width:300px !important;
+    min-width: 100px !important;
+    border-radius: 0px 7px 8px 9px;;
+    padding: 4px 10px 5px !important;
+    display: inline-block;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    word-wrap: break-word;
+  }
+  
+  
+  
+  
+  
+  .message-sender{
+    background-color: rgba(8, 236, 8, 0.479);
+    max-width:300px !important;
+    min-width: 100px !important;
+    border-radius: 10px 0px 10px 10px;
+    padding: 4px 10px 7px !important;
+    display: inline-block;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+    word-wrap: break-word;
+  
+  }
+  
+
+
+.searcharea-two{
+    background-color: #f0f0f0;
+    height: 56px;
+    overflow: hidden;
+}
+
+
+
+#mb-0 {
+    margin-bottom: 5px!important;
+  }
+  
+  .footer {
+    display: flex;
+   background-color: #f0f0f0;
+   padding: 5px 10px;
+  }
+  
+  .alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+   .icon{
+  
+    margin: 5px 10px;
+   
+     
+   }
+   .icon button {
+     border: none;
+   }
+  
+  
+   searchbar{
+    
+    margin: 5px 10px;
+  }
+  .searchbar input {
+    border-radius: 32px;
+  }
+  
+  
+  
+  .three{
+  
+    margin: 5px 10px;
+    
+     
+  }
+  
+  .three button {
+    border: none;
+  }
